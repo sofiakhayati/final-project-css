@@ -1,0 +1,305 @@
+
+.shop-item-title, h2{
+    font-family: Georgia, 'Times New Roman', Times, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 170%;
+    text-align: center;
+}
+.shop-item-image
+{
+    border-radius: 10%;
+}
+.shop-item-title
+{
+    font-family: Georgia, 'Times New Roman', Times, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 5%;
+    color: white;
+    font-weight: bold;
+}
+.shop-item-details
+{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+}
+.shop-item-price
+{
+    font-size: 140%;
+    font-weight: bold;
+}
+.shop-item-button
+{
+    padding: 3%;
+    background-color: lightgoldenrodyellow;
+    border-radius: 15%;
+    margin-left: 25%;
+}
+.shop-item-button:hover
+{
+    background-color: rgb(76, 106, 124);
+    color: white;
+}
+.shop-item
+{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+margin: 2%;
+}
+.food
+{
+    background-color: darkgray;
+    margin-top: 10%;
+}
+.shop-items
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 4%;
+}
+.FASH-CART
+{
+    color: white;
+    border-bottom: 5px solid white;
+   padding-top: 3%;
+    padding-bottom: 3%;
+}
+.section-cart
+{
+    background-color: rgb(49, 49, 49);
+    padding: 2% 10%;
+    margin: 3% 8%;
+}
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid white;
+    margin: 1% 4%;   
+}
+.cart-row:last-child .cart-column {
+    border: none;
+}
+.cart-row:last-child {
+    border-bottom: 3px dashed lightskyblue;
+}
+.cart-item-image
+{
+    border-radius: 15%;
+}
+.cart-item-title
+{
+    margin-left: 5%;
+    color: white;
+    font-size: 100%;
+}
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 35%;
+    color: white;
+    font-size: 120%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 120%;
+    color: white;
+}
+
+.cart-quantity {
+    width: 30%;
+    color: white;
+    font-size: 120%;
+}
+.btn-danger {
+    color: white;
+    width: 9vw;
+    height: 6vh;
+    background-color: #8b2b2b;
+    border-radius: 15%;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #c97c7c;
+    color: rgb(31, 30, 30);
+}
+
+.cart-quantity-input {
+    background-color: white;
+    color:rgb(31, 30, 30);
+    margin-right: 2%;
+    width: 4vw;
+    height: 5vh;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 120%;
+    
+}
+.cart-total {
+    text-align: end;
+    margin-top: 2%;
+    margin-right: 7%;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 150%;
+    color: white;
+    margin-right: 2%;
+}
+
+.cart-total-price {
+    color: white;
+    font-size: 160%;
+}
+
+.btn-purchase {
+    display: block;
+    margin-left: 350px ;
+    background-color: cadetblue;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 150%;
+    border-radius: 20%;
+    padding: 1%;
+    width: 20%;
+    color: white;
+}
+.btn-purchase:hover
+{
+    background-color: rgb(160, 204, 240);
+    color: rgb(43, 36, 36);
+}
+.section-style
+{
+    background-color: rgb(105, 107, 107); 
+    border-radius: 10% ; 
+    text-align: center;
+    margin: 0.5%;
+}
+footer
+{
+    background-color: rgb(74, 102, 102);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+    height: 35vh;
+}
+footer div{
+    width: 30%;
+}
+.footindex1 h5
+{
+    line-height: 2rem;
+    text-align: center;
+}
+.ICONS
+{
+margin-right: 7%;
+margin-left: 7%;
+margin-bottom: 4%;
+margin-top: 4%;
+}
+#mail:hover
+{
+    color: tomato;
+}
+#twitter:hover
+{
+    color: rgb(0, 68, 255,0.5);
+}
+#liknedin:hover
+{
+    color: rgb(29, 29, 231);
+}
+#github:hover
+{
+    color: black;
+}
+#instagram:hover
+{
+    color: rgb(151, 16, 16);
+}
+#facebook:hover
+{
+    color: blue;
+}
+
+/*********responsive page*****/
+@media screen and (max-width: 700px) {
+#food-nav
+{
+    display: flex;
+    width: 16%;
+}
+#SECT
+{
+font-size: 80%;
+margin: 1.5% 0%;
+padding: 0 0.3%;
+}
+.shop-item-image
+{
+    width:45vw; 
+    height: 280px;
+
+}
+.section-cart
+{
+    width: 80%;
+    padding: 3% 1%;
+    margin-left: 20%;
+}
+.cart-item {
+    width: 45%;
+    font-size: 90%;
+}
+.cart-quantity {
+  
+    font-size: 90%;
+}
+.btn-danger {
+    width: 15vw;
+}
+
+.cart-price {
+    width: 10%;
+    font-size: 90%;
+    color: white;
+}
+.btn-purchase {
+    margin-left: 150px ;
+    width: 30%;
+}
+.cart-quantity-input {
+    width: 6vw;
+    height: 6vh;
+}
+footer
+{
+    flex-direction: column;
+   height: 100vh;
+}
+footer div{
+    width: 60%;
+}
+.footindex1 h5
+{
+    line-height: 2rem;
+    text-align: center;
+}
+.ICONS
+{
+margin-left: 6%;
+margin-bottom: 2%;
+margin-top: 2%;
+}
+}

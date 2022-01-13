@@ -1,0 +1,56 @@
+.main iframe
+{
+    width: 48.5vw;
+    height: 80vh;
+    margin-bottom: 8%;
+    margin-top: 8%;
+}
+.side
+{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.side h1, .side-side h1
+{
+    text-align: center;
+    color: white;
+
+}
+.side1
+{
+    background-color: crimson;
+    padding: 5%;
+    
+}
+.side-side
+{
+    background-color: black;
+    padding-bottom: 3%;
+    padding-left: 1%;
+}
+.side2
+{
+    background-color: crimson;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+   margin-right: 5%;
+}
+.main p
+{
+    text-align: center;
+}
+/*********responsive page*****/
+@media screen and (max-width: 700px) {
+    .main iframe
+{
+    width: 98vw;
+    margin-left: 1%;
+    text-align: center;
+}
+}

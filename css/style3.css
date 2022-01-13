@@ -1,0 +1,147 @@
+*{
+    font-family: Avenir, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+body{
+    background: #ededed;
+}
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*HEADER & FOOTER*/
+header, footer{
+    width: 100%;
+    padding: 20px 0px;
+    background: url("https://www.pierre-giraud.com/wp-content/uploads/2019/07/cv-cover.jpg") #4f4f4f;
+    box-shadow: 0px 0px 15px #333;
+}
+header{
+    border-bottom: 2px solid #fff;
+    height: 130px;
+}
+header h1{
+    color: white;
+    font-size: 1.5em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer{
+    border-top: 2px solid #fff;
+}
+footer p{
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+footer a{
+    color: #fff;
+}
+
+/*SECTIONS*/
+section{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #fff;
+}
+.photo{
+    text-align: center;
+}
+.photo img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 10px #777;
+    border-radius: 50%;
+    margin-top: -80px;
+}
+.Present
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 8%;
+}
+.Present h1, .skills h1
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+.pres
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% 10%;
+    width: 80%;
+    height: 850px;
+    background-color: rgb(101, 115, 129, 0.5);
+    border-radius: 20%;
+}
+.pres button
+{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto 30px auto;
+    color: #fff;
+    background-color:  cadetblue;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5%;
+}
+.skills
+{
+    margin-left: 100px;
+    height: 300px;
+}
+
+/*********responsive page*****/
+@media screen and (max-width: 700px) {
+    .Present
+{
+display: flex;
+flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.pres
+{
+    margin-bottom: 30%;
+    height: 80%;
+    width: 95%;
+    height: 1300px;
+}
+.presentation
+{
+    margin-right: 0px; 
+   margin-left: 180px;
+}
+.imgh1
+{
+    flex-direction: column;
+}
+
+.skills
+{
+    margin-top: 60%;
+    margin-left: 0px;
+    height: 500px;
+}
+
+}
